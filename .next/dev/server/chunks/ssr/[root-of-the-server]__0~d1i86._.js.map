@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Dia/Desktop/03-academia-cursos/app/panel/page.jsx"],"sourcesContent":["\r\nexport default function PanelPage() {\r\n  const completados = lista.filter(item => item.estado === \"completado\")\r\n  const pendientes = lista.filter(item => item.estado !== \"completado\")\r\n\r\n  return (\r\n    <>\r\n      <h1 className=\"titulo\">Panel</h1>\r\n      <section className=\"dos\">\r\n        <article className=\"contador\"><span>Pendientes</span><strong>{pendientes.length}</strong></article>\r\n        <article className=\"contador\"><span>Completados</span><strong>{completados.length}</strong></article>\r\n      </section>\r\n    </>\r\n  )\r\n}\r\n"],"names":["PanelPage","completados","lista","filter","item","estado","pendientes","className","length"],"mappings":";;;;;;AACe,SAASA;IACtB,MAAMC,cAAcC,MAAMC,MAAM,CAACC,CAAAA,OAAQA,KAAKC,MAAM,KAAK;IACzD,MAAMC,aAAaJ,MAAMC,MAAM,CAACC,CAAAA,OAAQA,KAAKC,MAAM,KAAK;IAExD,qBACE;;0BACE,8OAAC;gBAAGE,WAAU;0BAAS;;;;;;0BACvB,8OAAC;gBAAQA,WAAU;;kCACjB,8OAAC;wBAAQA,WAAU;;0CAAW,8OAAC;0CAAK;;;;;;0CAAiB,8OAAC;0CAAQD,WAAWE,MAAM;;;;;;;;;;;;kCAC/E,8OAAC;wBAAQD,WAAU;;0CAAW,8OAAC;0CAAK;;;;;;0CAAkB,8OAAC;0CAAQN,YAAYO,MAAM;;;;;;;;;;;;;;;;;;;;AAIzF"}}]
+}
